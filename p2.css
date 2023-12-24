@@ -1,0 +1,185 @@
+
+body{
+    background-image: url('https://www.teahub.io/photos/full/163-1630558_dark-blue-background-4k-hd-desktop-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#menu  a{
+     text-decoration: none;
+     border: 20px;
+     display: inline-block;
+     padding: 10px 20px;
+     border-radius: 0px 15px 0px 15px;
+     color: bisque;
+}
+
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    padding-left: 0;
+   
+}
+#menu{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+li{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+#menu a:hover{
+    background-color: darkblue;
+}
+
+#container{
+    display: flex;
+    
+    align-items: center;
+    height:500px;
+}
+#left{
+    
+    display: inline;
+    padding-left: 100px;
+    line-height: 40px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+}
+h2{
+    font-size: 70px;
+    padding: 0;
+    color: azure;
+    
+}
+h3{
+    font-size: 40px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: azure;
+}
+#right{
+    
+    width: 130%;
+    border:20px;
+    border-radius: 20px;
+    padding-left: 80px;
+}
+p{
+    font-size: 19px;
+    justify-content: center;
+    color: azure;
+}
+
+span{
+    font-style: italic;
+    color: rgb(5, 113, 113);
+}
+
+button{
+    font-size: 20px;
+    color: bisque;
+    background-color: rgb(7, 96, 66);
+    padding: 10px 20px;
+    border-radius: 15px;
+    
+}
+
+#about{
+    color: rgb(230, 228, 226);
+    padding-left: 100px;
+    padding-top: 200px;
+    font-size: 50px;
+}
+
+.About p{
+      border: 20px;
+      padding: 30px;
+    height: 50%;
+    width: 80%;
+    padding-left: 350px;
+    text-align: justify;
+    line-height: 29px;
+}
+
+* {box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%;
+     background-color: #a3e323;}
+.css {width: 80%;
+     background-color: #0b61a8;}
+.js {width: 65%;
+     background-color: #e11268;}
+.php {width: 60%;
+     background-color: #ed5e0c;}
+
+#my{
+    font-size: 50px;
+}
+
+#skills{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#foot{
+    display: grid;
+    
+    padding-top: 100px;
+}
+
+#icons a{
+    align-items: center;
+    display: inline;
+    
+    justify-content: center;
+    float: center;
+    
+    text-decoration: none;
+    background-color: rgb(8, 60, 60);
+    margin: 10px;
+    border-radius: 20px;
+    align-content: center;
+   padding: 10px 20px;
+   color: aliceblue;
+    
+}
+#last{
+    text-align: center;
+    color: bisque;
+    padding-top: 20px;
+    padding-left: 60px;
+    
+}
+
+#icons a:hover{
+    background-color: rgb(5, 7, 105);
+}
+
+#icons{
+    align-items: center;
+    padding-left: 600px;
+}
